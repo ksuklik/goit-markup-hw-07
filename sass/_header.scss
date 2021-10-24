@@ -1,0 +1,150 @@
+.page-header{
+  background-color: var(--accent-new-color);
+  border-bottom: 1px solid #ECECEC;
+}
+
+.main-nav{
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color:#000000;
+  margin-right: 93px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-bloe {
+  color: var(--accent-color)
+}
+
+.site-nav{
+  display: flex;
+
+}
+
+.site-nav .item{
+  margin-right: 50px;
+}
+
+.site-nav .item:last-child{
+  margin-right: 0;
+}
+
+.site-nav .link {
+  display: block;
+  
+ padding-top: 32px;
+ padding-bottom: 32px; 
+
+color: var(--title-text);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current{
+  color: var(--accent-color);
+}
+
+.item{
+  position: relative;
+}
+.site-nav .link.current::after{
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--accent-color);
+  border-radius: 2px;
+
+  opacity: 0;
+  transition: opacity 250ms var(--timing);
+}
+
+.site-nav .link.current:hover::after{
+  opacity: 1;
+}
+
+.site-nav .link.activ::after{
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--accent-color);
+  border-radius: 2px;
+
+  opacity: 0;
+  transition: opacity 250ms var(--timing);
+}
+
+.site-nav .link.activ:hover::after{
+  opacity: 1;
+}
+
+
+/* сылка авторизации */
+.auth-link .link:hover,
+.auth-link .link:focus {
+  color: var(--accent-color);
+}
+
+
+
+.auth-link{
+  display: flex;
+  margin-left: auto;
+}
+
+.auth-link .item + .item{
+margin-left: 50px;
+}
+
+.auth-link .link {
+  display: flex;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  align-items: center;
+}
+
+.mailto{
+   width: 16px;
+   height: 12px;
+   margin-right: 10px;
+   fill: var(--primary-text-color);
+}
+.auth-link .link:hover .mailto,
+.auth-link .link:focus .mailto, 
+.auth-link .link:hover .phone,
+.auth-link .link:focus .phone{
+fill:var(--accent-color);
+}
+
+.phone{
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
+.phone:hover,
+.phone:focus{
+fill:var(--accent-color);
+}
