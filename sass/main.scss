@@ -1,6 +1,15 @@
-@import'./header';
-@import'./banner';
-@import'./features';
-@import'./work';
-@import'./our-team';
+@import'./utils/variables';
+@import'./base/reset';
+@import'./base/common';
+@import'./components/container';
+
+@import'./layout/header';
+@import'./layout/banner';
+@import'./layout/features';
+@import'./layout/work';
+@import'./layout/our-team';
+@import'./layout/company';
+@import'./layout/footer';
+@import'./layout/portfolio';
+
 

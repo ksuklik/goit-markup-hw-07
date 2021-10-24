@@ -1,0 +1,168 @@
+.footer{
+  background-color: #2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+.footer-logo{
+  display: inline-block;
+  margin-bottom: 20px;
+  color:var(--accent-new-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.adres{
+ color: var(--accent-new-color);
+ font-family: Roboto;
+ font-style: normal;
+ font-size: 14px;
+line-height: 1.71;
+ letter-spacing: 0.03em;
+}
+
+.footer .adres-link:hover,
+.footer .adres-link:focus {
+  color: var(--accent-color);
+}
+
+.footer .adres-link {
+  display: inline-block;
+ margin-top: 9px;
+ font-style: normal;
+ font-size: 14px;
+ line-height: 1.71;
+ letter-spacing: 0.03em;
+ color: rgba(255, 255, 255, 0.6);
+ text-decoration: none;
+}
+
+.footer .container{
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-title{
+  font-family: Roboto;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+ margin-bottom: 20px;
+ color:var(--accent-new-color);
+ }
+
+.social-footer-list{
+  display: flex;
+}
+
+.social-footer-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.social-footer-link:hover{
+  background: #2196F3;
+}
+
+.social-footer-item:last-child{
+  margin-right: 0;
+} 
+
+.social-footer-icon{
+  width: 20px;
+  height: 20px;
+  fill: #FFFFFF;
+}
+
+.connect{
+  margin-left: 70px;
+}
+
+.footer-form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 93px;
+}
+
+.footer-form-title{
+ font-weight: bold;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+ margin-bottom: 20px;
+ color: var(--accent-new-color);
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: row 
+}
+
+.footer-form-label{
+  display: flex;
+}
+
+.footer-form-label input{
+  width: 358px;
+  height: 50px;
+  left: 815px;
+  top: 2787px;
+  padding: 16px 15px;
+  margin-right: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2F303A;
+}
+
+.footer-form-label input::placeholder{
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-form .btn-title{
+ display: flex;
+ align-items: center;
+ text-align: center;
+ padding-left: 29px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-right: 10px;
+ width: 200px;
+ height: 50px;
+
+ background: #2196F3;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+ border-radius: 4px;
+
+ color: #FFFFFF;
+ font-size: 16px;
+ line-height: 30px;
+}
+
+.btn-icon{
+  width: 24px;
+  height: 24px;
+  margin: 13px 13px;
+  
+}
