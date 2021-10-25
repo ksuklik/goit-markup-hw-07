@@ -26,12 +26,8 @@ line-height: 1.71;
  letter-spacing: 0.03em;
 }
 
-.footer .adres-link:hover,
-.footer .adres-link:focus {
-  color: var(--accent-color);
-}
 
-.footer .adres-link {
+.footer .adres__link {
   display: inline-block;
  margin-top: 9px;
  font-style: normal;
@@ -40,6 +36,11 @@ line-height: 1.71;
  letter-spacing: 0.03em;
  color: rgba(255, 255, 255, 0.6);
  text-decoration: none;
+ &:hover,
+ &:focus {
+  color: var(--accent-color);
+}
+
 }
 
 .footer .container{
@@ -74,7 +75,7 @@ line-height: 1.71;
   margin-right: 10px;
 }
 
-.social-footer-link:hover{
+.social-footer-item:hover{
   background: #2196F3;
 }
 
@@ -98,7 +99,7 @@ line-height: 1.71;
   margin-left: 93px;
 }
 
-.footer-form-title{
+.footer-form__title{
  font-weight: bold;
  font-size: 14px;
  line-height: 1.14;
@@ -113,11 +114,11 @@ line-height: 1.71;
   flex-direction: row 
 }
 
-.footer-form-label{
+.footer-form__label{
   display: flex;
 }
 
-.footer-form-label input{
+.footer-form__label input{
   width: 358px;
   height: 50px;
   left: 815px;
@@ -131,7 +132,7 @@ line-height: 1.71;
   background: #2F303A;
 }
 
-.footer-form-label input::placeholder{
+.footer-form__label input::placeholder{
 font-size: 16px;
 line-height: 20px;
 display: flex;
