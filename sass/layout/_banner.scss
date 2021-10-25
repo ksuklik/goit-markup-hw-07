@@ -76,40 +76,42 @@
 	transform: translate(-50%, -50%);
 	width: 528px;
 	min-height: 581px;
-	&__button {
-	display: flex;
-	cursor: pointer;
-	padding: 0;
-	position: absolute;
-	top: 8px;
-	right: 8px;
-	width: 30px;
-	height: 30px;
-	border-radius: 100%;
-	justify-content: center;
-	align-items: center;
-	background: var(--accent-new-color);
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	box-sizing: border-box;
-  &:hover .modal__icon{
-  fill:var(--accent-color)
-   }
+
+	   &__button {
+	   display: flex;
+	   cursor: pointer;
+	   padding: 0;
+	   position: absolute;
+	   top: 8px;
+	   right: 8px;
+	   width: 30px;
+	   height: 30px;
+	   border-radius: 100%;
+	   justify-content: center;
+	   align-items: center;
+	   background: var(--accent-new-color);
+	   border: 1px solid rgba(0, 0, 0, 0.1);
+	   box-sizing: border-box;
+         &:hover .modal__icon{
+         fill:var(--accent-color)
+          }
 	}
-	&__icon {
-	width: 18px;
-	height: 18px;
-	color: #000000;
-	}
-	  &__title {
-	display: flex;
-	width: 448px;
-	height: 23px;
-	line-height: 23px;
-	text-align: center;
-	letter-spacing: 0.03em;
-	margin-bottom: 12px;
-	color: var(--title-text);
-	}
+            &__icon {
+	          width: 18px;
+	          height: 18px;
+	          color: #000000;
+	          }
+
+	            &__title {
+	            display: flex;
+	            width: 448px;
+	            height: 23px;
+	            line-height: 23px;
+	            text-align: center;
+	            letter-spacing: 0.03em;
+	            margin-bottom: 12px;
+	            color: var(--title-text);
+	            }
 
 }
 
@@ -153,15 +155,17 @@ padding-left: 42px;
 background: var(--accent-new-color);
 border: 1px solid rgba(33, 33, 33, 0.2);
 box-sizing: border-box;
-&:focus,&:hover{
-  border: 1px solid #2196F3;
-  outline: none;
-  cursor: pointer;
-  & + .form__ikon,
-  & + .form__ikon{
-  fill: var(--accent-color);
-}
-}
+
+       &:focus,&:hover{
+       border: 1px solid #2196F3;
+       outline: none;
+       cursor: pointer;
+
+           & + .form__ikon,
+           & + .form__ikon{
+           fill: var(--accent-color);
+         }
+    }
 }
 
  
@@ -188,16 +192,17 @@ box-sizing: border-box;
   font-size: 14px;
   line-height: 1.7;
   color: var(--primary-text-color);
-   span{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   border-radius: 3px;
-   margin-right: 7px;
-   width: 16px;
-   height: 15px;
-   border: 2px solid #212121;
-   }
+     
+     span{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 3px;
+     margin-right: 7px;
+     width: 16px;
+     height: 15px;
+     border: 2px solid #212121;
+     }
  }
 
 
